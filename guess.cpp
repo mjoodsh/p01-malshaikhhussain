@@ -10,7 +10,7 @@ int main ()
     while(true) {
     	char playagain;
 		cout<<"Select the difficulty"<<endl;
-		cout<<"For Easy press 1"<<endl<<"For Medium press 2"<<endl<<"For Hard press 3"<<endl;
+		cout<<"For Easy press   1"<<endl<<"For Medium press 2"<<endl<<"For Hard press   3"<<endl;
     
 		int difficulty;
 		cin>>difficulty;
@@ -42,7 +42,7 @@ int main ()
 			break;
 		}
 		else{
-			cout<<"I'm sorry, you gueesed wrong! Try again"<<endl;
+			cout<<"I'm sorry, you guessed wrong! Try again"<<endl;
 
 			if(randomNumber<guess){
 				cout<<"The random number is lower"<<endl;
@@ -54,7 +54,7 @@ int main ()
 	}
 
 	if(guess!=randomNumber){
-		cout<<"I'm sorry, you guesses wrong again! You lose!"<<endl;
+		cout<<"I'm sorry, that is not correct! You lose!"<<endl;
 	}
 while(true) { 
 			
